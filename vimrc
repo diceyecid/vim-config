@@ -72,8 +72,11 @@ Plug 'OmniSharp/omnisharp-vim'
 
 " fast HTML coding
 Plug 'mattn/emmet-vim'
+
+" syntax highlghting
 Plug 'digitaltoad/vim-pug'
 Plug 'briancollins/vim-jst'
+Plug 'prisma/vim-prisma'
 
 " markdown preview
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug'] }
