@@ -3,6 +3,7 @@
 
 "---------------General Settings---------------"
  
+set encoding=utf-8
 set mouse=a				" Enable mouse
 set noswapfile			" Disable temporary swap files
 set hidden				" Keep editing buffer in background
@@ -56,7 +57,7 @@ set nofoldenable		" Unfold everything when open
 
 "---------------Plugins---------------"
 
-call plug#begin('~/.vim/plugged')
+call plug#begin( './plugged' )
 
 
 " aesthetics
