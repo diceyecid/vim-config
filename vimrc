@@ -81,12 +81,16 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 " git integration
 Plug 'tpope/vim-fugitive'
 Plug 'rbong/vim-flog'
+Plug 'mhinz/vim-signify'
 
-" file system explorer
+" file explorer
 Plug 'scrooloose/nerdtree'
+Plug 'majutsushi/tagbar'
 
 " fuzzy finder
 Plug 'junegunn/fzf'
 
+" undo history
+Plug 'mbbill/undotree'
 
 call plug#end()

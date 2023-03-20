@@ -26,5 +26,7 @@ nnoremap <leader>gps :G push<CR>
 
 " Plugins
 nnoremap <leader>t :NERDTreeToggle<CR>
-nnoremap <leader>f :FZF 
+nnoremap <leader>o :TagbarToggle[f]<CR>
+nnoremap <leader>u :UndotreeToggle<CR>:UndotreeFocus<CR>
+nnoremap <leader>f :FZF<CR>
 nnoremap <leader>md :MarkdownPreviewToggle<CR>
