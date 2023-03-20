@@ -57,7 +57,7 @@ set nofoldenable		" Unfold everything when open
 
 "---------------Plugins---------------"
 
-call plug#begin( './plugged' )
+call plug#begin()
 
 
 " aesthetics
