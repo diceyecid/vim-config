@@ -77,6 +77,7 @@ Plug 'mattn/emmet-vim'
 Plug 'digitaltoad/vim-pug'
 Plug 'briancollins/vim-jst'
 Plug 'prisma/vim-prisma'
+Plug 'pangloss/vim-javascript'
 
 " markdown preview
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug'] }
