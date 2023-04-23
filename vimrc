@@ -68,6 +68,7 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdcommenter'
 Plug 'OmniSharp/omnisharp-vim'
+Plug 'github/copilot.vim'
 
 " fast HTML coding
 Plug 'mattn/emmet-vim'
