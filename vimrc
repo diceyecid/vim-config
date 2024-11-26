@@ -70,8 +70,9 @@ Plug 'preservim/nerdcommenter'
 Plug 'OmniSharp/omnisharp-vim'
 Plug 'github/copilot.vim'
 
-" fast HTML coding
+" coding tool
 Plug 'mattn/emmet-vim'
+Plug 'junegunn/vim-easy-align'
 
 " syntax highlghting
 Plug 'digitaltoad/vim-pug'
@@ -87,11 +88,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'rbong/vim-flog'
 Plug 'mhinz/vim-signify'
 
-" file explorer
+" file explorer / finder
 Plug 'scrooloose/nerdtree'
 Plug 'majutsushi/tagbar'
-
-" fuzzy finder
 Plug 'junegunn/fzf'
 
 " undo history
